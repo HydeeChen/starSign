@@ -13,6 +13,9 @@
 		A22A4C312A7B84F1005B6947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22A4C2F2A7B84F1005B6947 /* Main.storyboard */; };
 		A22A4C332A7B84F3005B6947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22A4C322A7B84F3005B6947 /* Assets.xcassets */; };
 		A22A4C362A7B84F3005B6947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22A4C342A7B84F3005B6947 /* LaunchScreen.storyboard */; };
+		A22A4C3E2A7B89AC005B6947 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22A4C3D2A7B89AC005B6947 /* crayon_1-1.ttf */; };
+		A22A4C402A7B8AFD005B6947 /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22A4C3F2A7B8AFD005B6947 /* ChenYuluoyan-Thin.ttf */; };
+		A22A4C422A7B8E9E005B6947 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A4C412A7B8E9E005B6947 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A22A4C322A7B84F3005B6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22A4C352A7B84F3005B6947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A22A4C372A7B84F3005B6947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22A4C3D2A7B89AC005B6947 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
+		A22A4C3F2A7B8AFD005B6947 /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
+		A22A4C412A7B8E9E005B6947 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				A22A4C292A7B84F1005B6947 /* AppDelegate.swift */,
 				A22A4C2B2A7B84F1005B6947 /* SceneDelegate.swift */,
 				A22A4C2D2A7B84F1005B6947 /* ViewController.swift */,
+				A22A4C412A7B8E9E005B6947 /* WebViewController.swift */,
 				A22A4C2F2A7B84F1005B6947 /* Main.storyboard */,
 				A22A4C322A7B84F3005B6947 /* Assets.xcassets */,
 				A22A4C342A7B84F3005B6947 /* LaunchScreen.storyboard */,
 				A22A4C372A7B84F3005B6947 /* Info.plist */,
+				A22A4C3D2A7B89AC005B6947 /* crayon_1-1.ttf */,
+				A22A4C3F2A7B8AFD005B6947 /* ChenYuluoyan-Thin.ttf */,
 			);
 			path = "測試上升星座";
 			sourceTree = "<group>";
@@ -125,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22A4C3E2A7B89AC005B6947 /* crayon_1-1.ttf in Resources */,
 				A22A4C362A7B84F3005B6947 /* LaunchScreen.storyboard in Resources */,
 				A22A4C332A7B84F3005B6947 /* Assets.xcassets in Resources */,
+				A22A4C402A7B8AFD005B6947 /* ChenYuluoyan-Thin.ttf in Resources */,
 				A22A4C312A7B84F1005B6947 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +152,7 @@
 				A22A4C2E2A7B84F1005B6947 /* ViewController.swift in Sources */,
 				A22A4C2A2A7B84F1005B6947 /* AppDelegate.swift in Sources */,
 				A22A4C2C2A7B84F1005B6947 /* SceneDelegate.swift in Sources */,
+				A22A4C422A7B8E9E005B6947 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
